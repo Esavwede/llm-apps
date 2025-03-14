@@ -1,0 +1,34 @@
+{
+  "name": "llm-apps",
+  "version": "0.1.0-alpha.1",
+  "description": "a repository of llm powered applications",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esavwede/llm-apps.git"
+  },
+  "keywords": [
+    "llm",
+    "langchain",
+    "ai"
+  ],
+  "author": "ogagaoghene esavwede",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esavwede/llm-apps/issues"
+  },
+  "homepage": "https://github.com/Esavwede/llm-apps#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.3",
+    "semantic-release": "^24.2.3",
+    "typescript": "^5.8.2"
+  }
+}
