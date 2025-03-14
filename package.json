@@ -1,16 +1,17 @@
 {
   "name": "llm-apps",
-  "version": "0.1.0-alpha.1",
+  "version": "0.0.0-development",
   "description": "a repository of llm powered applications",
   "main": "app.js",
   "scripts": {
     "test": "test",
-    "build":"npx tsc",
-    "release": "semantic-release"
+    "build": "npx tsc",
+    "release": "semantic-release",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Esavwede/llm-apps.git"
+    "url": "https://github.com/Esavwede/llm-apps.git"
   },
   "keywords": [
     "llm",
@@ -31,5 +32,8 @@
     "@semantic-release/release-notes-generator": "^14.0.3",
     "semantic-release": "^24.2.3",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "semantic-release-cli": "^5.4.6"
   }
 }
